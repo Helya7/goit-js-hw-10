@@ -9,8 +9,8 @@ html {
 }
 
 :root {
-    --primary-text-color: #434455;
-    --title-text-color: #2E2F42;
+    --primary-text-color: #fff;
+    --title-text-color: #000000;
     --primary-white-color: #ffffff;
     --hover-color: #404BBF;
     --style-color:rgba(58, 15, 71, 0.7);
@@ -48,13 +48,12 @@ body {
 .cat-info {
     width: 1200px;
     padding: 25px;
-    margin-left: auto;
+    margin-left: 70px;
     margin-right: auto;
     
     border-radius: 30px;
 
     background-color:var(--style-color);
-    box-shadow: 0 7px 29px rgb(56, 112, 152);
     font-size: 17px;
 }
 .cat-cont {
@@ -76,7 +75,7 @@ body {
     color: var(--primary-text-color);
 }
 .bold-temperament {
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
     font-weight: 600;
 }
 
@@ -85,8 +84,8 @@ body {
     color: #ffffff;
     height: 35px;
 
-    margin-left: 50px;
-    margin-top: 200px;
+    margin-left: 90px;
+    margin-top: 30px;
 }
 .text-cont {
     margin-left: 30px;
