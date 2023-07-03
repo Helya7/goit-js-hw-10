@@ -48,10 +48,8 @@ body {
 .cat-info {
     width: 1200px;
     padding: 25px;
-    margin-left: 70px;
+    margin-left: 90px;
     margin-right: auto;
-    
-    border-radius: 30px;
 
     background-color:var(--style-color);
     font-size: 17px;
